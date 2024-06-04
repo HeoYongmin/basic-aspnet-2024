@@ -186,3 +186,5 @@ IoT 개발자과정 ASP.NET 리포지토리
 - HTML + CSS + js(jQuery) 응용
     - 웹페이지 클로닝
         - 핀터레스트 타입 + 부트스트랩 웹페이지 만들기(완료)
+     
+        - https://github.com/HeoYongmin/basic-aspnet-2024/assets/158007383/b082cd18-18b5-417b-bd28-011b64dda3fa
