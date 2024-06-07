@@ -206,3 +206,6 @@ IoT 개발자과정 ASP.NET 리포지토리
     - 개인 웹페이지 클로닝
         - Codehal 웹페이지 따라하기
         
+        - https://github.com/HeoYongmin/basic-aspnet-2024/assets/158007383/0c41f3b8-60cd-4042-86a3-20d266c1f3b7
+
+
