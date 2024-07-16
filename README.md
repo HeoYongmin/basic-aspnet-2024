@@ -26,10 +26,10 @@ IoT 개발자과정 ASP.NET 리포지토리
     6. C - cgi, fasCGI ...
     7. PHP
 
-- 개발
+- 웹 개발
     - 프론트엔드 전부 + 백엔드 여러개 중 하나 + DB
     - 웹 브라우저에서 F12(개발자도구)
-    - VS Code 플러그인
+    - VS Code 플러그인 - 프론트엔드
         - HTML Code Snippet
         - Live Server
 
@@ -210,12 +210,18 @@ IoT 개발자과정 ASP.NET 리포지토리
 
 ## 8일차
 - ASP.NET
+    - 웹퍼블리시 - HTML, CSS, Javascript만 가지고 웹페이만 개발
+    - 프론트엔드 개발자 - 웹퍼블리시가 만든 웹페이지에 백엔드와 연계를 해서 실제 동작하는 페이지 개발
+        - json, 백엔드, DB 전반적인 개발 지식
+
     - ASP.NET 역사
         - 1990년대 MS가 웹 서버기술로 ASP(Active Server Page)를 배포. like JSP(Java Server Page)
         - ASP는 .NET으로 된 언어가 아닌, VBScript를 사용
-        - 개발이 무지 쉬워서 많이 사용
         - 스파게티 코드! - HTML + CSS + Javascript + VBscript 짬뽕으로 만든 웹 페이지
-        - 유지보수 어렵고, 성능이 나쁘고 ...
+            - 프론트엔드 + 백엔드 소스가 모두 한페이지에...
+            - 다만, 현재 프론트엔드도 백엔드 소스가 일부는 포함되어 있음
+        - 많이 사용되었지만 유지보수 어렵고, 성능이 나쁘고 ...
+
 
         - 2000년대 MS가 .NET Framework를 발표
         - C#, VB.NET, C++.NET 등의 새로운 언어를 배포, 여기에 맞춰서 웹 서버기술을 다시 만듬 -> ASP.NET(.aspx)
@@ -225,10 +231,11 @@ IoT 개발자과정 ASP.NET 리포지토리
         - 하지만, 윈도우에서만 동작
         - 모든 OS플랫폼에서 동작할 수 있는 .NET Core를 재출시
         - 거기에 웹 서버기술을 또 다시 만듦 -> ASP.NET Core
+        - ASP.NET은 C#이 아닌 다른 .NET 언어로도 개발가능. 그중에서 C#을 사용
 
     - .NET Core(현재는 .NET 9.0, Core라는 이름은 사용안함)의 장점
         - 빠르고 오픈소스
-        - 크로스 플랫폼, OS에 종속받지 않음
+        - **크로스 플랫폼**, OS에 종속받지 않음
         - 성능!
 
     - ASP.NET 종류
@@ -291,9 +298,28 @@ IoT 개발자과정 ASP.NET 리포지토리
             ...
             Done.
             ```
-## 9일차 (07.22)
+
+        - 브라우저 실행 시 NET::ERR_CRET_INVALID 연결 비공개 설정이 안되 화면이 안나타는 경우
+            - 브라우저 화면 클릭, thisisunsafe 입력 엔터
+
+## 9일차 (07.16)
 - ASP.NET Core MVC
-    - 필요 이론
-    - 연습
-    - 개인 포트폴리오 웹사이트
-    - Bootstrap 테마 적용
+    - MVC 리뷰
+        - Model은 개발자가 따로 만듬
+        - View, Controller 폴더는 미리 만들어짐
+        - 웹 브라우저에서 접근할 페이지를 만들려면
+            1. 해당 컨트롤러를 생성
+            2. 뷰를 같이 생성할지 나중에 따로 만들지 선택
+            3. 컨트롤러 이름과 동일한 뷰 폴더,  메서드와 이름과 동일한 cshtml 페이지가 생성
+            4. 컨트롤러에 모델에 DB와 연결될 내용을 작성
+            5. 모델내용을 뷰로 리턴
+
+- ASP.NET Core 포트폴리오 웹사이트, Myportfolio
+    1. Visual Studio에서 ASP.NET Core 웹앱(MVC) 프로젝트 생성
+    2. 부트스트랩 템플릿 사이트, 알맞은 템플릿 다운로드
+    3. wwwroot 폴더 밑에 템플릿 html,css,js, 이미지 등 위치
+    4. 템플릿 페이지에 공통적인 부분(Header, Buttom)은 _layout.cshtml에 위치
+    5. 중간에 페이지마다 변경되는 부분은 각 Views 밑에 포함
+    
+
+
