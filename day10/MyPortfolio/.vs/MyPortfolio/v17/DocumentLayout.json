@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|c:\\sources\\basic-aspnet-2024\\day10\\myportfolio\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{248BB78C-8D97-4715-9981-3BC9DA0CF8AA}|MyPortfolio.csproj|solutionrelative:models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,68 +38,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T00:15:39.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "DocumentIndex": 2,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T00:15:36.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T00:15:33.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T08:09:47.08Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T00:15:21.602Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T08:09:39.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAHAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T08:06:52.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "Models\\Board.cs",
+              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Models\\Board.cs",
+              "RelativeToolTip": "Models\\Board.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T00:15:14.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T08:06:32.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Sources\\basic-aspnet-2024\\day10\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T00:15:39.151Z"
             }
           ]
         }
